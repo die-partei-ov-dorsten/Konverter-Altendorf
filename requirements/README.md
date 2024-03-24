@@ -4,7 +4,7 @@ Die Beschreibung der zusätzlich erforderlichen Software ist Gegenstand dieses A
 
 ## WSL
 
-Unter Windows benötigen Sie eine laufende WSL-Umgebung, da die Skripte darauf basieren.
+Unter Windows benötigen Sie eine laufende WSL-Umgebung, da die Skripte dieses Projektes darauf basieren.
 
 [WSL Installationsanleitung bei Microsoft](https://learn.microsoft.com/de-de/windows/wsl/install)
 
