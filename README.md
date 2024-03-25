@@ -10,14 +10,16 @@ Blender Projekt zum Konverter den Amprion in Dorsten in Altendorf-Ulfkotte bauen
 
 # Selber einen Konverter Erstellen
 
-1. Passen sie die Datei Datendownload/config an. Wie das geht ist hier beschrieben: [Anpassen des Datendownloades](Datendownload/README.md)
-2. Öffen sie eine bash in diesem Projektverzeichniss und führen sie die ./run.sh aus
-3. Importieren sie die unter Objects erstellten Daten in Blender (Y Forward, Z Up)
-4. ToDo: Blender GeometrieNodes exportieren, Derzeit: Erzeugen sie sich passende GeometrieNodes
-5. ToDo: Texturen setzen, Derzeit: Suchen und setzten sie selber eine Textur
-6. Importieren sie unseren Beispiel Konverter aus dem Verzeichniss Konverter
-7. Positionieren sie das Konvertergebäude im Gelände
-8. Erzeugen sie Kamerafahreten und renden ein Video
+1. Installieren sie die benötigte Software. [Requirements](requirements/README.md)
+2. Tragen sie den Pfad zu den LAStools Binarys in die Datei config/config ein.
+3. Passen sie die Datei Datendownload/config an. Wie das geht ist hier beschrieben: [Anpassen des Datendownloades](Datendownload/README.md)
+4. Öffen sie eine bash in diesem Projektverzeichniss und führen sie die ./run.sh aus
+5. Importieren sie die unter Objects erstellten Daten in Blender (Y Forward, Z Up)
+6. ToDo: Blender GeometrieNodes exportieren, Derzeit: Erzeugen sie sich passende GeometrieNodes
+7. ToDo: Texturen setzen, Derzeit: Suchen und setzten sie selber eine Textur
+8. Importieren sie unseren Beispiel Konverter aus dem Verzeichniss Konverter
+9. Positionieren sie das Konvertergebäude im Gelände
+10. Erzeugen sie Kamerafahreten und renden ein Video
 
 ## requirements
 [Eine Übersicht über die benötigte Software](requirements/README.md)
