@@ -11,7 +11,7 @@ grep -Ev '^#' config |
     # Für alle Kachelnamen
     while read name
     do
-        echo "Kacheln  $name wird nach ../tmp/herruntergeladen"
+        echo "Kacheln  $name wird nach ../tmp/$name.laz herruntergeladen"
         curl --output "../tmp/$name.laz" "https://www.opengeodata.nrw.de/produkte/geobasis/hm/3dm_l_las/3dm_l_las/$name.laz"
     done
    
